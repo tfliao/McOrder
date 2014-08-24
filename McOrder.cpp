@@ -104,7 +104,8 @@ int main(int argc, char *argv[])
 	config::initProgramOption(po);
 	if (!po.parse(argc, argv)) {
 		cerr << po.getError() << endl;
-		exit;
+		cerr << po.usage();
+		exit(0);
 	}
 	
 	load_menu();

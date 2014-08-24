@@ -1,1 +1,1 @@
-g++ *.cpp ProgramOption/*.cpp -std=c++0x 
+g++ *.cpp ProgramOption/*.cpp -std=c++0x  -o McOrder.exe
